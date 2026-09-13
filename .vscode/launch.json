@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:macbook-duo}",
+      "name": "Debug LidFold",
+      "target": "LidFold",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug LidFold"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:macbook-duo}",
+      "name": "Release LidFold",
+      "target": "LidFold",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release LidFold"
+    }
+  ]
+}
